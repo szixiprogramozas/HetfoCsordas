@@ -29,9 +29,6 @@ namespace HetfoCsordas
         // Fájl beolvasása
         public static int[,] Beolvas()
         {
-      
-
-
             int[,] erdo = new int[col, row];
 
             int i = 0;
@@ -111,19 +108,19 @@ namespace HetfoCsordas
                 {
                     if (k < row_half)
                     {
-                        eszak++;
+                        eszak += erdo[k, i];
                     }
                     else if (k > row_half)
                     {
-                        del++;
+                        del += erdo[k, i];
                     }
                     else if (i < col_half)
                     {
-                        nyugat++;
+                        nyugat += erdo[k, i];
                     }
                     else if (i > col_half)
                     {
-                        kelet++;
+                        kelet += erdo[k, i];
                     }
                 }
             }
