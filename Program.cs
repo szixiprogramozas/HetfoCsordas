@@ -5,12 +5,23 @@ using System.Linq;
 
 namespace HetfoCsordas
 {
+    
     class Program
     {
-        public static int hossz = File.ReadAllLines(@"erdo.txt").Count();
+        public static StreamReader reader = new StreamReader(@"erdo.txt");
+        public static string sor = reader.ReadLine();
+        public static string[] temp = sor.Split(' ');
+
+        public static int col = int.Parse(temp[0]);
+        public static int row = int.Parse(temp[1]);
+        
         static void Main(string[] args)
         {
             int[,] erdo = Beolvas();
+            
+            
+            Harmadik(erdo);
+
             Console.ReadKey();
         }
 
@@ -18,16 +29,8 @@ namespace HetfoCsordas
         // Fájl beolvasása
         public static int[,] Beolvas()
         {
-            StreamReader reader = new StreamReader(@"erdo.txt");
+      
 
-            string sor = reader.ReadLine();
-            string[] temp = sor.Split(' ');
-
-            int col = int.Parse(temp[0]);
-            int row = int.Parse(temp[1]);        
-
-            Console.Write(col);
-            Console.Write(row + "\n");
 
             int[,] erdo = new int[col, row];
 
@@ -86,16 +89,73 @@ namespace HetfoCsordas
             return erdo;
         }
 
-        public static void Elso()
-        {
-
-        }
-
         public static void Masodik()
         {
 
         }
 
+        public static void Harmadik(int[,] erdo)
+        {
+            int eszak = 0;
+            int kelet = 0;
+            int del = 0;
+            int nyugat = 0;
+            int col_half = col / 2;
+            int row_half = row / 2;
+
+            List<int> kicsi = new List<int>();
+
+            for (int k = 0; k < col; k++)
+            {
+                for (int i = 0; i < row; i++)
+                {
+                    if (k < row_half)
+                    {
+                        eszak++;
+                    }
+                    else if (k > row_half)
+                    {
+                        del++;
+                    }
+                    else if (i < col_half)
+                    {
+                        nyugat++;
+                    }
+                    else if (i > col_half)
+                    {
+                        kelet++;
+                    }
+                }
+            }
+
+            kicsi.Add(eszak);
+            kicsi.Add(del);
+            kicsi.Add(kelet);
+            kicsi.Add(nyugat);
+
+            kicsi.Sort();
+
+            if (kicsi[0] == eszak)
+            {
+                Console.WriteLine("Észak");
+            }
+
+            if (kicsi[0] == kelet)
+            {
+                Console.WriteLine("Kelet");
+            }
+
+            if (kicsi[0] == nyugat)
+            {
+                Console.WriteLine("Nyugat");
+            }
+
+            if (kicsi[0] == del)
+            {
+                Console.WriteLine("Dél");
+            }
+
+        }
         public static void Negyedik()
         {
 
