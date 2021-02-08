@@ -21,7 +21,7 @@ namespace HetfoCsordas
             
             Masodik(erdo);
             Harmadik(erdo);
-
+            Otodik(erdo);
             Console.ReadKey();
         }
 
@@ -170,9 +170,22 @@ namespace HetfoCsordas
 
         }
 
-        public static void Otodik()
+        public static void Otodik(int[,] erdo)
         {
+            StreamWriter fileki = new StreamWriter(@"d:\max.txt");
+            int max = 0;
 
+            for (int i = 0; i < col; i++)
+            {
+                for (int k = 0; k < row; k++)
+                {
+                    if (erdo[i, k] > max)
+                    {
+                        max = erdo[i, k];
+                    }
+                    fileki.WriteLine("A legtöbb gomba: " + erdo[i, k]);
+                }
+            }           
         }
 
         public static void Hatodik()
