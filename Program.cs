@@ -11,6 +11,7 @@ namespace HetfoCsordas
         static void Main(string[] args)
         {
             int[,] erdo = Beolvas();
+            Console.ReadKey();
         }
 
 
@@ -18,9 +19,6 @@ namespace HetfoCsordas
         public static int[,] Beolvas()
         {
             int[,] erdo = new int[(hossz - 1), 10];
-
-
-
             return erdo;
         }
 
