@@ -19,7 +19,7 @@ namespace HetfoCsordas
         {
             int[,] erdo = Beolvas();
             
-            
+            Masodik(erdo);
             Harmadik(erdo);
 
             Console.ReadKey();
@@ -89,9 +89,19 @@ namespace HetfoCsordas
             return erdo;
         }
 
-        public static void Masodik()
+        public static void Masodik(int[,] erdo)
         {
+            int osszeg = 0;
 
+            for (int i = 0; i < col; i++)
+            {
+                for (int k = 0; k < row; k++)
+                {
+                    osszeg += erdo[i, k];
+                }
+
+            }
+            Console.WriteLine("az összegük" + osszeg);
         }
 
         public static void Harmadik(int[,] erdo)
