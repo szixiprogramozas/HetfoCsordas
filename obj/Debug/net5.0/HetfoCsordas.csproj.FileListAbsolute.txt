@@ -1,0 +1,16 @@
+/media/csordasp/home/Programming Projects/C#/HetfoCsordas/bin/Debug/net5.0/HetfoCsordas
+/media/csordasp/home/Programming Projects/C#/HetfoCsordas/bin/Debug/net5.0/HetfoCsordas.deps.json
+/media/csordasp/home/Programming Projects/C#/HetfoCsordas/bin/Debug/net5.0/HetfoCsordas.runtimeconfig.json
+/media/csordasp/home/Programming Projects/C#/HetfoCsordas/bin/Debug/net5.0/HetfoCsordas.runtimeconfig.dev.json
+/media/csordasp/home/Programming Projects/C#/HetfoCsordas/bin/Debug/net5.0/HetfoCsordas.dll
+/media/csordasp/home/Programming Projects/C#/HetfoCsordas/bin/Debug/net5.0/ref/HetfoCsordas.dll
+/media/csordasp/home/Programming Projects/C#/HetfoCsordas/bin/Debug/net5.0/HetfoCsordas.pdb
+/media/csordasp/home/Programming Projects/C#/HetfoCsordas/obj/Debug/net5.0/HetfoCsordas.csprojAssemblyReference.cache
+/media/csordasp/home/Programming Projects/C#/HetfoCsordas/obj/Debug/net5.0/HetfoCsordas.GeneratedMSBuildEditorConfig.editorconfig
+/media/csordasp/home/Programming Projects/C#/HetfoCsordas/obj/Debug/net5.0/HetfoCsordas.AssemblyInfoInputs.cache
+/media/csordasp/home/Programming Projects/C#/HetfoCsordas/obj/Debug/net5.0/HetfoCsordas.AssemblyInfo.cs
+/media/csordasp/home/Programming Projects/C#/HetfoCsordas/obj/Debug/net5.0/HetfoCsordas.csproj.CoreCompileInputs.cache
+/media/csordasp/home/Programming Projects/C#/HetfoCsordas/obj/Debug/net5.0/HetfoCsordas.dll
+/media/csordasp/home/Programming Projects/C#/HetfoCsordas/obj/Debug/net5.0/ref/HetfoCsordas.dll
+/media/csordasp/home/Programming Projects/C#/HetfoCsordas/obj/Debug/net5.0/HetfoCsordas.pdb
+/media/csordasp/home/Programming Projects/C#/HetfoCsordas/obj/Debug/net5.0/HetfoCsordas.genruntimeconfig.cache

@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "restore": {
+    "/media/csordasp/home/Programming Projects/C#/HetfoCsordas/HetfoCsordas.csproj": {}
+  },
+  "projects": {
+    "/media/csordasp/home/Programming Projects/C#/HetfoCsordas/HetfoCsordas.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/media/csordasp/home/Programming Projects/C#/HetfoCsordas/HetfoCsordas.csproj",
+        "projectName": "HetfoCsordas",
+        "projectPath": "/media/csordasp/home/Programming Projects/C#/HetfoCsordas/HetfoCsordas.csproj",
+        "packagesPath": "/home/csordasp/.nuget/packages/",
+        "outputPath": "/media/csordasp/home/Programming Projects/C#/HetfoCsordas/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/csordasp/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
