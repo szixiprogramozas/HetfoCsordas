@@ -88,6 +88,7 @@ namespace HetfoCsordas
 
         public static void Masodik(int[,] erdo)
         {
+            Console.WriteLine("2. feladat");
             int osszeg = 0;
 
             for (int i = 0; i < col; i++)
@@ -98,11 +99,12 @@ namespace HetfoCsordas
                 }
 
             }
-            Console.WriteLine("az összegük" + osszeg);
+            Console.WriteLine("Az összegük: " + osszeg);
         }
 
         public static void Harmadik(int[,] erdo)
         {
+            Console.WriteLine("\n3. feladat");
             int eszak = 0;
             int kelet = 0;
             int del = 0;
