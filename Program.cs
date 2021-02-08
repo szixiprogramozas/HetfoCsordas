@@ -11,12 +11,14 @@ namespace HetfoCsordas
         static void Main(string[] args)
         {
             int[,] erdo = Beolvas();
+            Console.ReadKey();
         }
 
 
         // Fájl beolvasása
         public static int[,] Beolvas()
         {
+<<<<<<< HEAD
             StreamReader reader = new StreamReader(@"erdo.txt");
 
             string sor = reader.ReadLine();
@@ -83,6 +85,9 @@ namespace HetfoCsordas
             */
             
             
+=======
+            int[,] erdo = new int[(hossz - 1), 10];
+>>>>>>> 88523863b11736df745001ea9f99a21c575e102a
             return erdo;
         }
 
