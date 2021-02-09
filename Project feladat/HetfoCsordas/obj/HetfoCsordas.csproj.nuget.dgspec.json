@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PC_01\\Source\\Repos\\szixiprogramozas\\HetfoCsordas\\Project feladat\\HetfoCsordas\\HetfoCsordas.csproj": {}
+    "C:\\Users\\User\\Source\\Repos\\szixiprogramozas\\HetfoCsordas\\Project feladat\\HetfoCsordas\\HetfoCsordas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PC_01\\Source\\Repos\\szixiprogramozas\\HetfoCsordas\\Project feladat\\HetfoCsordas\\HetfoCsordas.csproj": {
+    "C:\\Users\\User\\Source\\Repos\\szixiprogramozas\\HetfoCsordas\\Project feladat\\HetfoCsordas\\HetfoCsordas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC_01\\Source\\Repos\\szixiprogramozas\\HetfoCsordas\\Project feladat\\HetfoCsordas\\HetfoCsordas.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\szixiprogramozas\\HetfoCsordas\\Project feladat\\HetfoCsordas\\HetfoCsordas.csproj",
         "projectName": "HetfoCsordas",
-        "projectPath": "C:\\Users\\PC_01\\Source\\Repos\\szixiprogramozas\\HetfoCsordas\\Project feladat\\HetfoCsordas\\HetfoCsordas.csproj",
-        "packagesPath": "C:\\Users\\PC_01\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC_01\\Source\\Repos\\szixiprogramozas\\HetfoCsordas\\Project feladat\\HetfoCsordas\\obj\\",
+        "projectPath": "C:\\Users\\User\\Source\\Repos\\szixiprogramozas\\HetfoCsordas\\Project feladat\\HetfoCsordas\\HetfoCsordas.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Source\\Repos\\szixiprogramozas\\HetfoCsordas\\Project feladat\\HetfoCsordas\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PC_01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

@@ -24,6 +24,7 @@ namespace HetfoCsordas
             Harmadik(erdo);
             Negyedik(erdo);
             Otodik(erdo);
+            Hatodik(erdo);
             Console.ReadKey();
         }
 
@@ -232,9 +233,68 @@ namespace HetfoCsordas
             fileki.Close();
         }
 
-        public static void Hatodik()
+        public static int Hatodik(int [,] erdo)
         {
-
+            Console.WriteLine("\n6.feladat");
+            Console.Write("Kérem adja meg a sor értéket: ");
+            int x = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Kérem adja meg az oszlop értéket: ");
+            int y = Convert.ToInt32(Console.ReadLine());
+            bool joUtvonal = true;
+            string utvonal = "";
+            do
+            {
+                Console.Write("Adjon meg egy valid útvonalat: ");
+                utvonal = Console.ReadLine();
+                if (utvonal.Length > 255)
+                {
+                    joUtvonal = false;
+                }
+                else
+                {
+                    joUtvonal = true;
+                    for (int i = 0; i < utvonal.Length; i++)
+                    {
+                        switch (char.GetNumericValue(utvonal[i]))
+                        {
+                            case 0:
+                                break;
+                            case 1:
+                                break;
+                            case 2:
+                                break;
+                            case 3:
+                                break;
+                            default:
+                                joUtvonal = false;
+                                break;
+                        }
+                    }
+                }
+            } while (joUtvonal == false);
+            int gombakSzama = erdo[x, y];
+            for (int i = 0; i < utvonal.Length; i++)
+            {
+                switch (char.GetNumericValue(utvonal[i]))
+                {
+                    case 0:
+                        y = y - 1;
+                        break;
+                    case 1:
+                        x = x + 1;
+                        break;
+                    case 2:
+                        y = y + 1;
+                        break;
+                    case 3:
+                        x = x - 1;
+                        break;
+                }
+                gombakSzama += erdo[x, y];
+                erdo[x, y] = 0;
+            }
+            Console.WriteLine("A talált gombák száma: " + gombakSzama);
+            return erdo[x,y];
         }
 
         public static void Hetedik()
