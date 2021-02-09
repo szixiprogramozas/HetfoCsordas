@@ -19,8 +19,10 @@ namespace HetfoCsordas
         {
             int[,] erdo = Beolvas();
 
-            Masodik(erdo);
+            int osszeg = 0;
+            Masodik(erdo, osszeg);
             Harmadik(erdo);
+            Negyedik(erdo);
             Otodik(erdo);
             Console.ReadKey();
         }
@@ -86,10 +88,10 @@ namespace HetfoCsordas
             return erdo;
         }
 
-        public static void Masodik(int[,] erdo)
+        public static int Masodik(int[,] erdo, int osszeg)
         {
             Console.WriteLine("2. feladat");
-            int osszeg = 0;
+            osszeg = 0;
 
             for (int i = 0; i < col; i++)
             {
@@ -99,7 +101,8 @@ namespace HetfoCsordas
                 }
 
             }
-            Console.WriteLine("Az összegük: " + osszeg);
+            Console.WriteLine("Összesen {0} db gombát szedtek! ", osszeg);
+            return osszeg;
         }
 
         public static void Harmadik(int[,] erdo)
@@ -165,15 +168,43 @@ namespace HetfoCsordas
             }
 
         }
-        public static void Negyedik()
+        public static void Negyedik(int[,] erdo)
         {
+            int db = 0;
+            Console.WriteLine("\n4. Feladat ");
+            Console.WriteLine("Ezekben a sorokban nem volt gomba:");
+            for (int i = 0; i < col; i++)
+            {
+                for (int k = 0; k < row; k++)
+                {
+                    if (erdo[i, k] > 0)
+                    {
+                        db++;
+                    }                  
+                }
+            }
 
+            if (db > 33)
+            {
+                Console.WriteLine("Mindegyikben volt!");
+
+            }
+            else if (db <= 33)
+            {
+                for (int i = 0; i < col; i++)
+                {
+                    Console.WriteLine("A(z) " + (i+1) + ". sorban.");
+                }               
+            }
         }
 
         public static void Otodik(int[,] erdo)
         {
-            StreamWriter fileki = new StreamWriter(@"d:\max.txt");
-            int max = 0;
+            StreamWriter fileki = new StreamWriter(@"max.txt");
+            fileki.WriteLine("5. Feladat: ");
+            fileki.WriteLine("A legtöbb gombát a következő területeken szedték: ");
+            fileki.WriteLine("A területek (Sor, Oszlop)");
+            int max = erdo[0, 0];
 
             for (int i = 0; i < col; i++)
             {
@@ -183,9 +214,22 @@ namespace HetfoCsordas
                     {
                         max = erdo[i, k];
                     }
-                    fileki.WriteLine("A legtöbb gomba: " + erdo[i, k]);
                 }
-            } 
+            }
+
+            for (int i = 0; i < col; i++)
+            {
+                for (int k = 0; k < row; k++)
+                {
+                    if (max == erdo[i, k])
+                    {
+                        fileki.WriteLine("(" + (i + 2) + ", " + (k + 1) + ")");
+                    }
+                }
+            }
+
+            fileki.Flush();
+            fileki.Close();
         }
 
         public static void Hatodik()
