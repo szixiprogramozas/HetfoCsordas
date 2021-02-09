@@ -185,7 +185,7 @@ namespace HetfoCsordas
                     }
                     fileki.WriteLine("A legtöbb gomba: " + erdo[i, k]);
                 }
-            }
+            } 
         }
 
         public static void Hatodik()

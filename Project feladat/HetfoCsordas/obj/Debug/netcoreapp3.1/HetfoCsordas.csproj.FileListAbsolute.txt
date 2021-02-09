@@ -1,0 +1,13 @@
+C:\Users\csordas.peter\Source\Repos\szixiprogramozas\HetfoCsordas\Project feladat\HetfoCsordas\bin\Debug\netcoreapp3.1\HetfoCsordas.exe
+C:\Users\csordas.peter\Source\Repos\szixiprogramozas\HetfoCsordas\Project feladat\HetfoCsordas\bin\Debug\netcoreapp3.1\HetfoCsordas.deps.json
+C:\Users\csordas.peter\Source\Repos\szixiprogramozas\HetfoCsordas\Project feladat\HetfoCsordas\bin\Debug\netcoreapp3.1\HetfoCsordas.runtimeconfig.json
+C:\Users\csordas.peter\Source\Repos\szixiprogramozas\HetfoCsordas\Project feladat\HetfoCsordas\bin\Debug\netcoreapp3.1\HetfoCsordas.runtimeconfig.dev.json
+C:\Users\csordas.peter\Source\Repos\szixiprogramozas\HetfoCsordas\Project feladat\HetfoCsordas\bin\Debug\netcoreapp3.1\HetfoCsordas.dll
+C:\Users\csordas.peter\Source\Repos\szixiprogramozas\HetfoCsordas\Project feladat\HetfoCsordas\bin\Debug\netcoreapp3.1\HetfoCsordas.pdb
+C:\Users\csordas.peter\Source\Repos\szixiprogramozas\HetfoCsordas\Project feladat\HetfoCsordas\obj\Debug\netcoreapp3.1\HetfoCsordas.csprojAssemblyReference.cache
+C:\Users\csordas.peter\Source\Repos\szixiprogramozas\HetfoCsordas\Project feladat\HetfoCsordas\obj\Debug\netcoreapp3.1\HetfoCsordas.AssemblyInfoInputs.cache
+C:\Users\csordas.peter\Source\Repos\szixiprogramozas\HetfoCsordas\Project feladat\HetfoCsordas\obj\Debug\netcoreapp3.1\HetfoCsordas.AssemblyInfo.cs
+C:\Users\csordas.peter\Source\Repos\szixiprogramozas\HetfoCsordas\Project feladat\HetfoCsordas\obj\Debug\netcoreapp3.1\HetfoCsordas.csproj.CoreCompileInputs.cache
+C:\Users\csordas.peter\Source\Repos\szixiprogramozas\HetfoCsordas\Project feladat\HetfoCsordas\obj\Debug\netcoreapp3.1\HetfoCsordas.dll
+C:\Users\csordas.peter\Source\Repos\szixiprogramozas\HetfoCsordas\Project feladat\HetfoCsordas\obj\Debug\netcoreapp3.1\HetfoCsordas.pdb
+C:\Users\csordas.peter\Source\Repos\szixiprogramozas\HetfoCsordas\Project feladat\HetfoCsordas\obj\Debug\netcoreapp3.1\HetfoCsordas.genruntimeconfig.cache
