@@ -1,8 +1,0 @@
-{
-  "runtimeOptions": {
-    "additionalProbingPaths": [
-      "/home/csordasp/.dotnet/store/|arch|/|tfm|",
-      "/home/csordasp/.nuget/packages"
-    ]
-  }
-}
