@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\A\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\szixiprogramozas\\HetfoCsordas\\Project feladat\\HetfoCsordas\\HetfoCsordas.csproj",
+      "projectUniqueName": "C:\\Users\\A\\Source\\Repos\\szixiprogramozas\\HetfoCsordas\\Project feladat\\HetfoCsordas\\HetfoCsordas.csproj",
       "projectName": "HetfoCsordas",
-      "projectPath": "C:\\Users\\User\\Source\\Repos\\szixiprogramozas\\HetfoCsordas\\Project feladat\\HetfoCsordas\\HetfoCsordas.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Source\\Repos\\szixiprogramozas\\HetfoCsordas\\Project feladat\\HetfoCsordas\\obj\\",
+      "projectPath": "C:\\Users\\A\\Source\\Repos\\szixiprogramozas\\HetfoCsordas\\Project feladat\\HetfoCsordas\\HetfoCsordas.csproj",
+      "packagesPath": "C:\\Users\\A\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\A\\Source\\Repos\\szixiprogramozas\\HetfoCsordas\\Project feladat\\HetfoCsordas\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\A\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

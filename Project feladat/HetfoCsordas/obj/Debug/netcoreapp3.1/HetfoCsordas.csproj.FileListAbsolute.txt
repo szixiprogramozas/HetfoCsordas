@@ -39,3 +39,17 @@ C:\Users\User\Source\Repos\szixiprogramozas\HetfoCsordas\Project feladat\HetfoCs
 C:\Users\User\Source\Repos\szixiprogramozas\HetfoCsordas\Project feladat\HetfoCsordas\obj\Debug\netcoreapp3.1\HetfoCsordas.dll
 C:\Users\User\Source\Repos\szixiprogramozas\HetfoCsordas\Project feladat\HetfoCsordas\obj\Debug\netcoreapp3.1\HetfoCsordas.pdb
 C:\Users\User\Source\Repos\szixiprogramozas\HetfoCsordas\Project feladat\HetfoCsordas\obj\Debug\netcoreapp3.1\HetfoCsordas.genruntimeconfig.cache
+C:\Users\A\Source\Repos\szixiprogramozas\HetfoCsordas\Project feladat\HetfoCsordas\bin\Debug\netcoreapp3.1\HetfoCsordas.exe
+C:\Users\A\Source\Repos\szixiprogramozas\HetfoCsordas\Project feladat\HetfoCsordas\bin\Debug\netcoreapp3.1\erdo.txt
+C:\Users\A\Source\Repos\szixiprogramozas\HetfoCsordas\Project feladat\HetfoCsordas\bin\Debug\netcoreapp3.1\HetfoCsordas.deps.json
+C:\Users\A\Source\Repos\szixiprogramozas\HetfoCsordas\Project feladat\HetfoCsordas\bin\Debug\netcoreapp3.1\HetfoCsordas.runtimeconfig.json
+C:\Users\A\Source\Repos\szixiprogramozas\HetfoCsordas\Project feladat\HetfoCsordas\bin\Debug\netcoreapp3.1\HetfoCsordas.runtimeconfig.dev.json
+C:\Users\A\Source\Repos\szixiprogramozas\HetfoCsordas\Project feladat\HetfoCsordas\bin\Debug\netcoreapp3.1\HetfoCsordas.dll
+C:\Users\A\Source\Repos\szixiprogramozas\HetfoCsordas\Project feladat\HetfoCsordas\bin\Debug\netcoreapp3.1\HetfoCsordas.pdb
+C:\Users\A\Source\Repos\szixiprogramozas\HetfoCsordas\Project feladat\HetfoCsordas\obj\Debug\netcoreapp3.1\HetfoCsordas.csprojAssemblyReference.cache
+C:\Users\A\Source\Repos\szixiprogramozas\HetfoCsordas\Project feladat\HetfoCsordas\obj\Debug\netcoreapp3.1\HetfoCsordas.AssemblyInfoInputs.cache
+C:\Users\A\Source\Repos\szixiprogramozas\HetfoCsordas\Project feladat\HetfoCsordas\obj\Debug\netcoreapp3.1\HetfoCsordas.AssemblyInfo.cs
+C:\Users\A\Source\Repos\szixiprogramozas\HetfoCsordas\Project feladat\HetfoCsordas\obj\Debug\netcoreapp3.1\HetfoCsordas.csproj.CoreCompileInputs.cache
+C:\Users\A\Source\Repos\szixiprogramozas\HetfoCsordas\Project feladat\HetfoCsordas\obj\Debug\netcoreapp3.1\HetfoCsordas.dll
+C:\Users\A\Source\Repos\szixiprogramozas\HetfoCsordas\Project feladat\HetfoCsordas\obj\Debug\netcoreapp3.1\HetfoCsordas.pdb
+C:\Users\A\Source\Repos\szixiprogramozas\HetfoCsordas\Project feladat\HetfoCsordas\obj\Debug\netcoreapp3.1\HetfoCsordas.genruntimeconfig.cache

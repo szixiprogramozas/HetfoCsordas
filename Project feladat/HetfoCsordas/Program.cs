@@ -25,6 +25,7 @@ namespace HetfoCsordas
             Negyedik(erdo);
             Otodik(erdo);
             Hatodik(erdo);
+            Hetedik(erdo);
             int db = 0;
             Nyolcadik(erdo, db);
             Console.ReadKey();
@@ -299,14 +300,83 @@ namespace HetfoCsordas
             return erdo[x,y];
         }
 
-        public static void Hetedik()
+        public static void Hetedik(int[,] erdo)
         {
+            Console.WriteLine("\n7. feladat");
+            List<string> bal_indexes = new List<string>();
+            List<int> osszegek = new List<int>();
+            int checker = 0;
 
+            int osszeg = 0;
+
+            for (int k = 0; k < col; k++)
+            {
+                for (int i = 0; i < row; i++)
+                {
+                    checker = 0;
+                    try
+                    {
+                        osszeg = 0;
+                        if ((k + 5) <= col)
+                        {
+                            for (int j = k; j <= (k + 4); j++)
+                            {
+                                if ((i + 5) <= row)
+                                {
+                                    for (int l = i; l <= (i + 4); l++)
+                                    {
+                                        osszeg += erdo[j, l];
+                                        if (checker == 0)
+                                        {
+                                            bal_indexes.Add(Convert.ToString(j) + "; " + Convert.ToString(l));
+                                        }
+                                        checker = 1;
+                                    }
+                                }
+                            }
+                        }
+                        osszegek.Add(osszeg);
+                    }
+                    catch
+                    {
+                        /*
+                        osszeg = 0;
+                        for (int h = k; h > (k + 5); h--)
+                        {
+                            for (int d = i; d > (i + 5); d--)
+                            {
+                                osszeg += erdo[h, d];
+                                if (checker == 0)
+                                {
+                                    bal_indexes.Add(Convert.ToString(h) + "; " + Convert.ToString(d));
+                                }
+                                checker = 1;
+                            }
+                        }
+                        osszegek.Add(osszeg);
+                        */
+                    }
+                }
+            }
+
+            int index = 0;
+            int max = osszegek[0];
+
+            for (int m = 0; m < osszegek.Count(); m++)
+            {
+                if (max < osszegek[m])
+                {
+                    max = osszegek[m];
+                    index = m;
+                }
+            }
+
+            Console.WriteLine("[ LEGTÖBB GOMBA EGY TERÜLETEN ] Az ezen a koordinátán {0} lévő gombák száma: {1}", bal_indexes[index], max);
         }
 
         public static int Nyolcadik(int [,] erdo, int db)
         {
-            Console.WriteLine("8.feladat");
+            Console.WriteLine("\n8.feladat");
             bool el = false;
             for (int i = 2; i < col-1; i++)
             {
