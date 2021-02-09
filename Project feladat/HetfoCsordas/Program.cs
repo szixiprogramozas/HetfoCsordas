@@ -25,6 +25,8 @@ namespace HetfoCsordas
             Negyedik(erdo);
             Otodik(erdo);
             Hatodik(erdo);
+            int db = 0;
+            Nyolcadik(erdo, db);
             Console.ReadKey();
         }
 
@@ -302,9 +304,34 @@ namespace HetfoCsordas
 
         }
 
-        public static void Nyolcadik()
+        public static int Nyolcadik(int [,] erdo, int db)
         {
+            Console.WriteLine("8.feladat");
+            bool el = false;
+            for (int i = 2; i < col-1; i++)
+            {
+                for (int j = 2; j < row-1; j++)
+                {
+                    if (erdo[i, j] > 0)
+                    {
+                        db = erdo[i - 1, j - 1] + erdo[i - 1, j] + erdo[i - 1, j + 1] +erdo[i, j - 1] + erdo[i, j + 1] + erdo[i + 1, j - 1] + erdo[i + 1, j] +erdo[i + 1, j + 1];
+                        if (db==0)
+                        {
+                            el = true;
+                        }
+                    }
 
+                }
+            }
+            if (el==true)
+            {
+                Console.WriteLine("Van");
+            }
+            else
+            {
+                Console.WriteLine("Nincs");
+            }
+            return db;
         }
 
     }
